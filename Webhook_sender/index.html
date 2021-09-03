@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravsDev | Webhook</title>
+    <meta name="title" content="Webhooker">
+    <meta name="description" content="Beatz discord | Send a Webhook here.">
+    <meta name="keywords" content="Beatz discord | Send a Webhook here">
+    <link rel="icon" type="image/png" href="images/dit_logo.png"/>
+		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		<link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="css/owl.carousel.min.css" />
+		<link rel="stylesheet" href="css/owl.theme.default.min.css" />
+		<link rel="stylesheet" href="css/pageclip.css" media="screen" />
+		<link href="css/style.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="style.css"/>
+        	
+    <script src="script.js"></script>
+</head>
+
+
+<div class="top">
+            <a class="logo" href="https://discord.gg/taxnpJHfVh">Discord</a>
+<!-- Main Code -->
+<body class="bg-dark">
+    <p class="text-info text-center font-weight-bold text-uppercase" style="font-size:5vw">
+        TravsDev
+        <p class="text-info text-center font-weight-bold text-uppercase" style="font-size:1vw">
+            Et simpelt Discord Webhook
+        </p>
+    </p>
+
+    <div class="text-center mx-auto" style="height: 100px;">
+        <input style="height: 50px;" required placeholder="INDSÆT WEBHOOK URL" size="55" class="rounded-lg" id="URL">
+    </div>
+
+    <div class="text-center mx-auto" style="height: 100px;">
+        <input style="height: 50px;" placeholder="INDSÆT WEBHOOK USERNAME - OPTIONAL" size="55" class="rounded-lg" id="bu">
+    </div>
+
+    <div class="text-center mx-auto" style="height: 100px;">
+        <input style="height: 50px;" placeholder="INDSÆT WEBHOOK AVATAR URL" size="55" class="rounded-lg" id="au">
+    </div>
+
+    <div class="text-center mx-auto" style="height: 75px;">
+        <input style="height: 50px;" required placeholder="INDSÆT WEBHOOK BESKED" size="55" class="rounded-lg" id="content">
+    </div>
+
+    <div class="text-center mx-auto" style="height: 50px;">
+        <button class="btn btn-outline-primary" style="width: 200px;" type="submit" onclick="send()">SEND</button>
+    </div>
+
+    <div class="text-center mx-auto" style="height: 50px;">
+        <button class="btn btn-outline-primary" style="width: 200px;" type="submit" onclick="delWebhook()">FJERN WEBHOOK</button>
+    </div>
+
+
+
+
+
+    <!-- Footer -->
+    <div style="text-align: center; color: white;">
+        Copyright &copy; TravsDev™ 
+      </div>
+</body>
+</html>
